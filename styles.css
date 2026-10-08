@@ -154,7 +154,7 @@ strong { font-weight: 700; }
 .footer-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 1.5rem; font-size: var(--step--1); }
 .footer-cols h4 { font-family: var(--mono); font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.8rem; margin: 0 0 0.5rem; color: var(--mint-wash); }
 .crisis { font-size: var(--step--1); border-top: 1px solid rgba(250, 241, 230, 0.25); padding-top: 1.2rem; }
-.fine { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.04em; opacity: 0.8; }
+.fine { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0; opacity: 0.8; }
 
 @media (max-width: 760px) {
   .hero .wrap, .split { grid-template-columns: minmax(0, 1fr); }
